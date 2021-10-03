@@ -324,8 +324,8 @@ Amethyst has a lot of internal systems it uses to keep things running we need
 to bring into the context of the `World`. For simplicity, these have been
 grouped into "Bundles" which include related systems and resources. We can
 add these to our Application's `GameData` using the `add_bundle` method,
-similarly to how you would register a system. We already have `RenderBundle` in place,
-registering another one will look similar. You have to first import
+similarly to how you would register a system. We already have `RenderingBundle`
+in place, registering another one will look similar. You have to first import
 `TransformBundle`, then register it as follows:
 
 ```rust

@@ -152,7 +152,7 @@ First, let's add the UI rendering in `main.rs`. Add the following imports:
 use amethyst::ui::{RenderUi, UiBundle};
 ```
 
-Then, add a `RenderUi` plugin to your `RenderBundle` like so:
+Then, add a `RenderUi` plugin to your `RenderingBundle` like so:
 
 ```rust
 # extern crate amethyst;
@@ -190,7 +190,7 @@ Finally, add the `UiBundle` after the `InputBundle`:
 # }
 ```
 
-We're adding a `RenderUi` to our `RenderBundle`, and we're also adding the
+We're adding a `RenderUi` to our `RenderingBundle`, and we're also adding the
 `UiBundle` to our game data. This allows us to start
 rendering UI visuals to our game in addition to the existing background and
 sprites.
